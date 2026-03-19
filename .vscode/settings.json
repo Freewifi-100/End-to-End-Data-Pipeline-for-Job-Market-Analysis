@@ -1,0 +1,16 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "wang",
+            "username": "postgres",
+            "database": "job_market_db",
+            "password": "secret"
+        }
+    ],
+    "dbt.perspectiveTheme": "Vintage"
+}

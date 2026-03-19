@@ -1,0 +1,12 @@
+snapshots:
+  - name: snap_job_applicants
+    relation: ref('silver_job_latest')
+    config:
+      schema: gold
+      unique_key: id
+      strategy: check
+      check_cols:
+        - num_applicants_int
+      invalidate_hard_deletes: true
+
+

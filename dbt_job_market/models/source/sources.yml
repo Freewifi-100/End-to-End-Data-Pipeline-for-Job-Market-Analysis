@@ -1,0 +1,43 @@
+version: 2
+
+sources:
+  - name: source
+    database: dbt_job_market
+    schema: default
+    tables:
+      - name: linkedin_data
+        columns:
+          - name: id
+            description: "A unique identifier for each record in the source table, typically an auto-incrementing integer or a UUID."
+          - name: job_id
+            description: "A unique identifier for each job posting, typically derived from the LinkedIn job URL or a combination of attributes to ensure uniqueness."
+          - name: job_website
+            description: "The URL of the job posting on LinkedIn, which can be used to reference the original source of the data."
+          - name: search_keyword
+            description: "The keyword used in the LinkedIn search that resulted in this job posting being scraped. This can help categorize and filter job postings based on the search criteria."
+          - name: job_url
+            description: "The URL of the job posting on LinkedIn, which can be used to reference the original source of the data."
+          - name: job_title
+            description: "The title of the job position as listed on LinkedIn."
+          - name: company_name
+            description: "The name of the company offering the job."
+          - name: company_url
+            description: "The URL of the company's LinkedIn page, which can provide additional information about the company."
+          - name: time_posted
+            description: "The time when the job was posted on LinkedIn, which may be in a relative format (e.g., '3 days ago') or an absolute timestamp."
+          - name: num_applicants
+            description: "The number of applicants who have applied for the job, as displayed on LinkedIn."
+          - name: location
+            description: "The geographical location of the job, which may include city, state, and country."
+          - name: seniority_level
+            description: "The seniority level required for the job, such as 'Entry level', 'Mid-Senior level', 'Director', etc."
+          - name: employment_type
+            description: "The type of employment for the job, such as 'Full-time', 'Part-time', 'Contract', 'Temporary', etc."
+          - name: job_function
+            description: "The primary job function or category, such as 'Engineering', 'Marketing', 'Sales', etc."
+          - name: industries
+            description: "The industry or industries associated with the job, which can help categorize the job posting and analyze trends across different sectors."
+          - name: job_description
+            description: "The full text of the job description, which may include responsibilities, qualifications, and other relevant details about the position."
+          - name: scraped_at
+            description: "The timestamp indicating when the job posting was scraped from LinkedIn, which can be useful for tracking data freshness and analyzing trends over time."

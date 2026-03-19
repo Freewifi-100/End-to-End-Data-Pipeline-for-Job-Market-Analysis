@@ -1,0 +1,1 @@
+select * from dbt_job_market.bronze.bronze_linkined_data
