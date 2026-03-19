@@ -174,22 +174,21 @@ def final_check_job_ids(df, df_null):
         df.at[index, 'job_description'] = job_details['job_description']
     
 def scrape():
-    now = datetime.now()
-    timestamp = now.strftime("%Y-%m-%dT%H%M%S")
+    
 
     title = [
         "Data Engineer",
         "ML Engineer",
-        "Data Scientist",
-        "Data Analyst",
-        "AI Engineer",
-        "Business Intelligence Analyst",
-        "Data specialist",
+        # "Data Scientist",
+        # "Data Analyst",
+        # "AI Engineer",
+        # "Business Intelligence Analyst",
+        # "Data specialist",
     ]
     location = "Bagkok, Thailand"
     job_list_all = []
     for t in title:
-        for i in range(0, 1000, 25):
+        for i in range(0, 100, 25):
             page_jobs = request_preview_job_posting(t, location, i)
             if page_jobs is None:
                 continue
@@ -210,8 +209,11 @@ def scrape():
 
     # add last column scraped_at
     df['scraped_at'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    return df
+    
+if __name__ == "__main__": 
+    now = datetime.now()
+    timestamp = now.strftime("%Y-%m-%dT%H%M%S")  
+    df = scrape()
     df.to_json(f"./raw/linkedin/{timestamp}.json", orient="records", lines=True)
     df.to_csv(f"./raw/linkedin/{timestamp}.csv", index=False)
-
-if __name__ == "__main__":    
-    scrape()

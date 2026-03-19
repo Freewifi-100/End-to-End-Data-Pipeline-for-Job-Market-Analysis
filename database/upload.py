@@ -7,7 +7,7 @@ from pathlib import Path
 
 load_dotenv()
 
-def upload() -> None:
+def upload(local_files) -> None:
   host = os.getenv("DATABRICKS_HOST")
   token = os.getenv("DATABRICKS_API_KEY")
 
@@ -20,7 +20,7 @@ def upload() -> None:
 
   # Directory in Unity Catalog volumes where files should be uploaded.
   volume_dir = "/Volumes/dbt_job_market/default/linkedin_data_volume"
-  local_files = sorted(Path("./raw/linkedin").glob("*.json"))
+  
 
   if not local_files:
     raise FileNotFoundError("No JSON files found under ./raw/linkedin")
@@ -48,4 +48,5 @@ def upload() -> None:
 
 
 if __name__ == "__main__":
-  upload()
+  local_files = sorted(Path("./raw/linkedin").glob("*.json"))
+  upload(local_files)

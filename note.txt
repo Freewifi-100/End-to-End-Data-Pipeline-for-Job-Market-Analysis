@@ -1,0 +1,41 @@
+{{ config(materialized='incremental',
+    unique_key = 'id'
+    ) 
+}}
+
+{% set cols = ['id', 'job_id', 'job_website', 'search_keyword', 'job_url', 'job_title', 'company_name', 'company_url', 
+                        'time_posted', 'num_applicants', 'location', 'seniority_level', 'employment_type', 'job_function', 'industries', 'job_description', 'scraped_at']%}
+
+select
+    id,
+    job_id,
+    job_website,
+    search_keyword,
+    job_url,
+    job_title,
+    company_name,
+    company_url,
+    time_posted,
+    {{ convert_time('time_posted') }} as time_posted_interval,
+    num_applicants,
+    {{get_num_applicants('num_applicants')}} as num_applicants_int,
+    {{ get_applicant_level('num_applicants') }} as applicant_level
+    location,
+    seniority_level,
+    employment_type,
+    job_function,
+    industries,
+    job_description,
+    scraped_at
+from {{ ref('bronze_linkined_data') }}
+
+
+
+
+
+silver_linkedin_data.id, silver_linkedin_data.job_id, silver_linkedin_data.job_website, silver_linkedin_data.search_keyword,
+                        silver_linkedin_data.job_url, silver_linkedin_data.job_title, silver_linkedin_data.company_name, silver_linkedin_data.company_url,
+                        silver_linkedin_data.time_posted, silver_linkedin_data.posted_timestamp, silver_linkedin_data.num_applicants, silver_linkedin_data.num_applicants_int,
+                        silver_linkedin_data.applicant_level, silver_linkedin_data.location, silver_linkedin_data.country,silver_linkedin_data.province, silver_linkedin_data.district,
+                        silver_linkedin_data.seniority_level, silver_linkedin_data.employment_type, silver_linkedin_data.job_function, silver_linkedin_data.industries,
+                        silver_linkedin_data,job_description, silver_linkedin_data.scraped_at

@@ -1326,6 +1326,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "annotated-types" },
     { name = "apache-airflow" },
+    { name = "apache-airflow-task-sdk" },
     { name = "appnope" },
     { name = "asttokens" },
     { name = "async-generator" },
@@ -1408,6 +1409,7 @@ dependencies = [
 requires-dist = [
     { name = "annotated-types", specifier = "==0.7.0" },
     { name = "apache-airflow", specifier = ">=3.1.8" },
+    { name = "apache-airflow-task-sdk", specifier = ">=1.1.8" },
     { name = "appnope", specifier = "==0.1.4" },
     { name = "asttokens", specifier = "==3.0.1" },
     { name = "async-generator", specifier = "==1.10" },
