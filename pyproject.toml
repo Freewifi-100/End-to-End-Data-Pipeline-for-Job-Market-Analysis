@@ -18,6 +18,7 @@ dependencies = [
     "comm==0.2.3",
     "cronitor>=4.9.0",
     "databricks-sdk>=0.47.0",
+    "databricks-sql-connector>=4.2.5",
     "dbt-core>=1.11.5",
     "dbt-databricks>=1.10.9",
     "dbt-postgres>=1.10.0",

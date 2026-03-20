@@ -1,6 +1,5 @@
 import time
-from datetime import datetime
-
+from datetime import datetime, timezone, timedelta
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
@@ -208,7 +207,9 @@ def scrape():
         print (f"After final check, number of job posts with null title: {len(null_title_jobs)}")
 
     # add last column scraped_at
-    df['scraped_at'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    tz_utc_plus_7 = timezone(timedelta(hours=7))
+    now_utc_plus_7 = datetime.now(timezone.utc).astimezone(tz_utc_plus_7)
+    df['scraped_at'] = int(now_utc_plus_7.timestamp())
     return df
     
 if __name__ == "__main__": 

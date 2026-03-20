@@ -1,0 +1,41 @@
+{"timestamp":"2026-03-20T16:22:21.939754Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 115. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-03-20T16:22:21.948796Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-20T16:22:21.949434Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/schedule.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-20T16:22:21.964606Z","level":"warning","event":"The `airflow.decorators.dag` attribute is deprecated. Please use `'airflow.sdk.dag'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/schedule.py","lineno":6,"logger":"py.warnings"}
+{"timestamp":"2026-03-20T16:22:21.964693Z","level":"warning","event":"The `airflow.decorators.task` attribute is deprecated. Please use `'airflow.sdk.task'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/schedule.py","lineno":6,"logger":"py.warnings"}
+{"timestamp":"2026-03-20T16:22:22.395795Z","level":"info","event":"Pulled latest file path from XCom for data arrival check: /opt/airflow/project/raw/linkedin/2026-03-20T232036.json","logger":"task.stdout"}
+{"timestamp":"2026-03-20T16:22:22.398639Z","level":"info","event":"Checking data arrival for file: /opt/airflow/project/raw/linkedin/2026-03-20T232036.json","logger":"task.stdout"}
+{"timestamp":"2026-03-20T16:22:24.164304Z","level":"info","event":"Received status code 200 for POST request","logger":"databricks.sql.auth.retry","filename":"retry.py","lineno":355}
+{"timestamp":"2026-03-20T16:22:24.164945Z","level":"info","event":"HTTP Response with status code 200, message: OK","logger":"databricks.sql.auth.thrift_http_client","filename":"thrift_http_client.py","lineno":208}
+{"timestamp":"2026-03-20T16:22:24.167187Z","level":"info","event":"Successfully opened session 01f12478-fa49-1bf4-bcd2-2d2b657ce097","logger":"databricks.sql.session","filename":"session.py","lineno":143}
+{"timestamp":"2026-03-20T16:22:25.496298Z","level":"info","event":"Received status code 200 for GET request","logger":"databricks.sql.auth.retry","filename":"retry.py","lineno":355}
+{"timestamp":"2026-03-20T16:22:25.917468Z","level":"info","event":"Received status code 200 for POST request","logger":"databricks.sql.auth.retry","filename":"retry.py","lineno":355}
+{"timestamp":"2026-03-20T16:22:25.918442Z","level":"info","event":"HTTP Response with status code 200, message: OK","logger":"databricks.sql.auth.thrift_http_client","filename":"thrift_http_client.py","lineno":208}
+{"timestamp":"2026-03-20T16:22:36.281020Z","level":"info","event":"Received status code 200 for POST request","logger":"databricks.sql.auth.retry","filename":"retry.py","lineno":355}
+{"timestamp":"2026-03-20T16:22:36.281508Z","level":"info","event":"HTTP Response with status code 200, message: OK","logger":"databricks.sql.auth.thrift_http_client","filename":"thrift_http_client.py","lineno":208}
+{"timestamp":"2026-03-20T16:22:38.021892Z","level":"info","event":"Received status code 200 for POST request","logger":"databricks.sql.auth.retry","filename":"retry.py","lineno":355}
+{"timestamp":"2026-03-20T16:22:38.022764Z","level":"info","event":"HTTP Response with status code 200, message: OK","logger":"databricks.sql.auth.thrift_http_client","filename":"thrift_http_client.py","lineno":208}
+{"timestamp":"2026-03-20T16:22:43.754356Z","level":"info","event":"Received status code 200 for POST request","logger":"databricks.sql.auth.retry","filename":"retry.py","lineno":355}
+{"timestamp":"2026-03-20T16:22:43.754614Z","level":"info","event":"HTTP Response with status code 200, message: OK","logger":"databricks.sql.auth.thrift_http_client","filename":"thrift_http_client.py","lineno":208}
+{"timestamp":"2026-03-20T16:22:49.184086Z","level":"info","event":"Received status code 200 for POST request","logger":"databricks.sql.auth.retry","filename":"retry.py","lineno":355}
+{"timestamp":"2026-03-20T16:22:49.185322Z","level":"info","event":"HTTP Response with status code 200, message: OK","logger":"databricks.sql.auth.thrift_http_client","filename":"thrift_http_client.py","lineno":208}
+{"timestamp":"2026-03-20T16:22:54.606752Z","level":"info","event":"Received status code 200 for POST request","logger":"databricks.sql.auth.retry","filename":"retry.py","lineno":355}
+{"timestamp":"2026-03-20T16:22:54.606871Z","level":"info","event":"HTTP Response with status code 200, message: OK","logger":"databricks.sql.auth.thrift_http_client","filename":"thrift_http_client.py","lineno":208}
+{"timestamp":"2026-03-20T16:22:55.941295Z","level":"info","event":"Received status code 200 for POST request","logger":"databricks.sql.auth.retry","filename":"retry.py","lineno":355}
+{"timestamp":"2026-03-20T16:22:55.941761Z","level":"info","event":"HTTP Response with status code 200, message: OK","logger":"databricks.sql.auth.thrift_http_client","filename":"thrift_http_client.py","lineno":208}
+{"timestamp":"2026-03-20T16:22:56.451056Z","level":"info","event":"Received status code 200 for POST request","logger":"databricks.sql.auth.retry","filename":"retry.py","lineno":355}
+{"timestamp":"2026-03-20T16:22:56.451507Z","level":"info","event":"HTTP Response with status code 200, message: OK","logger":"databricks.sql.auth.thrift_http_client","filename":"thrift_http_client.py","lineno":208}
+{"timestamp":"2026-03-20T16:22:57.471160Z","level":"info","event":"Received status code 200 for POST request","logger":"databricks.sql.auth.retry","filename":"retry.py","lineno":355}
+{"timestamp":"2026-03-20T16:22:57.471667Z","level":"info","event":"HTTP Response with status code 200, message: OK","logger":"databricks.sql.auth.thrift_http_client","filename":"thrift_http_client.py","lineno":208}
+{"timestamp":"2026-03-20T16:22:57.526210Z","level":"info","event":"Latest scraped_at in table: 2026-03-20 16:20:36+00:00, row count: 80","logger":"task.stdout"}
+{"timestamp":"2026-03-20T16:22:57.527666Z","level":"info","event":"latest scraped_at in table: 2026-03-20 16:20:36+00:00","logger":"task.stdout"}
+{"timestamp":"2026-03-20T16:22:57.527868Z","level":"info","event":"loaded row count in table: 80","logger":"task.stdout"}
+{"timestamp":"2026-03-20T16:22:57.527974Z","level":"info","event":"latest local file: 2026-03-20T232036.json","logger":"task.stdout"}
+{"timestamp":"2026-03-20T16:22:57.528066Z","level":"info","event":"row count in latest local file: 80","logger":"task.stdout"}
+{"timestamp":"2026-03-20T16:22:57.528137Z","level":"info","event":"MATCH: table row count equals raw/linkedin file row count","logger":"task.stdout"}
+{"timestamp":"2026-03-20T16:22:57.989243Z","level":"info","event":"Received status code 200 for POST request","logger":"databricks.sql.auth.retry","filename":"retry.py","lineno":355}
+{"timestamp":"2026-03-20T16:22:57.989677Z","level":"info","event":"HTTP Response with status code 200, message: OK","logger":"databricks.sql.auth.thrift_http_client","filename":"thrift_http_client.py","lineno":208}
+{"timestamp":"2026-03-20T16:22:57.990608Z","level":"info","event":"Closing session 01f12478-fa49-1bf4-bcd2-2d2b657ce097","logger":"databricks.sql.session","filename":"session.py","lineno":194}
+{"timestamp":"2026-03-20T16:22:58.421371Z","level":"info","event":"Received status code 200 for POST request","logger":"databricks.sql.auth.retry","filename":"retry.py","lineno":355}
+{"timestamp":"2026-03-20T16:22:58.422286Z","level":"info","event":"HTTP Response with status code 200, message: OK","logger":"databricks.sql.auth.thrift_http_client","filename":"thrift_http_client.py","lineno":208}
+{"timestamp":"2026-03-20T16:22:58.461015Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":230}

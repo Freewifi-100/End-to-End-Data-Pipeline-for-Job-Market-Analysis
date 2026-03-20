@@ -1,0 +1,570 @@
+{"timestamp":"2026-03-20T15:03:56.147617Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 15055. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-03-20T15:03:56.174187Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-20T15:03:56.175781Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/schedule.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-20T15:03:56.236423Z","level":"warning","event":"The `airflow.decorators.dag` attribute is deprecated. Please use `'airflow.sdk.dag'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/schedule.py","lineno":6,"logger":"py.warnings"}
+{"timestamp":"2026-03-20T15:03:56.236661Z","level":"warning","event":"The `airflow.decorators.task` attribute is deprecated. Please use `'airflow.sdk.task'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/schedule.py","lineno":6,"logger":"py.warnings"}
+{"timestamp":"2026-03-20T15:04:04.249634Z","level":"info","event":"[Data Engineer]Scraped 10 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:04:04.251570Z","level":"info","event":"[Data Engineer]This is page starting at 0","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:04:11.605247Z","level":"info","event":"[Data Engineer]Scraped 20 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:04:11.611732Z","level":"info","event":"[Data Engineer]This is page starting at 25","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:04:21.931547Z","level":"info","event":"[Data Engineer]Scraped 30 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:04:21.933493Z","level":"info","event":"[Data Engineer]This is page starting at 50","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:04:28.638074Z","level":"info","event":"[Data Engineer]Scraped 40 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:04:28.641043Z","level":"info","event":"[Data Engineer]This is page starting at 75","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:04:35.782323Z","level":"info","event":"[Data Engineer]Scraped 50 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:04:35.785475Z","level":"info","event":"[Data Engineer]This is page starting at 100","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:04:42.629079Z","level":"info","event":"[Data Engineer]Scraped 60 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:04:42.630341Z","level":"info","event":"[Data Engineer]This is page starting at 125","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:04:48.555119Z","level":"info","event":"[Data Engineer]Scraped 70 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:04:48.556454Z","level":"info","event":"[Data Engineer]This is page starting at 150","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:04:54.737469Z","level":"info","event":"[Data Engineer]Scraped 80 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:04:54.738377Z","level":"info","event":"[Data Engineer]This is page starting at 175","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:00.718270Z","level":"info","event":"[Data Engineer]Scraped 90 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:00.718758Z","level":"info","event":"[Data Engineer]This is page starting at 200","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:06.687313Z","level":"info","event":"[Data Engineer]Scraped 100 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:06.688392Z","level":"info","event":"[Data Engineer]This is page starting at 225","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:14.018197Z","level":"info","event":"[Data Engineer]Scraped 110 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:14.020462Z","level":"info","event":"[Data Engineer]This is page starting at 250","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:21.748540Z","level":"info","event":"[Data Engineer]Scraped 120 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:21.749754Z","level":"info","event":"[Data Engineer]This is page starting at 275","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:28.019226Z","level":"info","event":"[Data Engineer]Scraped 130 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:28.022726Z","level":"info","event":"[Data Engineer]This is page starting at 300","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:33.842798Z","level":"info","event":"[Data Engineer]Scraped 140 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:33.845208Z","level":"info","event":"[Data Engineer]This is page starting at 325","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:39.521275Z","level":"info","event":"[Data Engineer]Scraped 149 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:39.523257Z","level":"info","event":"[Data Engineer]This is page starting at 350","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:46.330834Z","level":"info","event":"[Data Engineer]Scraped 159 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:46.332458Z","level":"info","event":"[Data Engineer]This is page starting at 375","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:52.689533Z","level":"info","event":"[Data Engineer]Scraped 169 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:52.691687Z","level":"info","event":"[Data Engineer]This is page starting at 400","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:58.951950Z","level":"info","event":"[Data Engineer]Scraped 179 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:05:58.953424Z","level":"info","event":"[Data Engineer]This is page starting at 425","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:04.578712Z","level":"info","event":"[Data Engineer]Scraped 189 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:04.579132Z","level":"info","event":"[Data Engineer]This is page starting at 450","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:05.033316Z","level":"info","event":"[Data Engineer]Scraped 189 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:05.033552Z","level":"info","event":"[Data Engineer]This is page starting at 475","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:10.321755Z","level":"info","event":"[Data Engineer]Scraped 199 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:10.323244Z","level":"info","event":"[Data Engineer]This is page starting at 500","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:10.720774Z","level":"info","event":"[Data Engineer]Scraped 199 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:10.721321Z","level":"info","event":"[Data Engineer]This is page starting at 525","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:11.046629Z","level":"info","event":"[Data Engineer]Scraped 199 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:11.046910Z","level":"info","event":"[Data Engineer]This is page starting at 550","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:11.333777Z","level":"info","event":"[Data Engineer]Scraped 199 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:11.334200Z","level":"info","event":"[Data Engineer]This is page starting at 575","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:11.796245Z","level":"info","event":"[Data Engineer]Scraped 199 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:11.796958Z","level":"info","event":"[Data Engineer]This is page starting at 600","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:17.403486Z","level":"info","event":"[Data Engineer]Scraped 209 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:17.404139Z","level":"info","event":"[Data Engineer]This is page starting at 625","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:17.793533Z","level":"info","event":"[Data Engineer]Scraped 209 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:17.795315Z","level":"info","event":"[Data Engineer]This is page starting at 650","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:18.344197Z","level":"info","event":"[Data Engineer]Scraped 209 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:18.353880Z","level":"info","event":"[Data Engineer]This is page starting at 675","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:23.408136Z","level":"info","event":"[Data Engineer]Scraped 219 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:23.408920Z","level":"info","event":"[Data Engineer]This is page starting at 700","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:29.500834Z","level":"info","event":"[Data Engineer]Scraped 229 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:29.502497Z","level":"info","event":"[Data Engineer]This is page starting at 725","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:29.841463Z","level":"info","event":"[Data Engineer]Scraped 229 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:29.842738Z","level":"info","event":"[Data Engineer]This is page starting at 750","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:30.267848Z","level":"info","event":"[Data Engineer]Scraped 229 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:30.271349Z","level":"info","event":"[Data Engineer]This is page starting at 775","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:30.698210Z","level":"info","event":"[Data Engineer]Scraped 229 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:30.698706Z","level":"info","event":"[Data Engineer]This is page starting at 800","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:31.144116Z","level":"info","event":"[Data Engineer]Scraped 229 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:31.145044Z","level":"info","event":"[Data Engineer]This is page starting at 825","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:37.787486Z","level":"info","event":"[Data Engineer]Scraped 239 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:37.788758Z","level":"info","event":"[Data Engineer]This is page starting at 850","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:42.837286Z","level":"info","event":"[Data Engineer]Scraped 249 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:42.838173Z","level":"info","event":"[Data Engineer]This is page starting at 875","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:43.232064Z","level":"info","event":"[Data Engineer]Scraped 249 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:43.232873Z","level":"info","event":"[Data Engineer]This is page starting at 900","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:43.521614Z","level":"info","event":"[Data Engineer]Scraped 249 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:43.522513Z","level":"info","event":"[Data Engineer]This is page starting at 925","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:48.913203Z","level":"info","event":"[Data Engineer]Scraped 259 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:48.914126Z","level":"info","event":"[Data Engineer]This is page starting at 950","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:49.235754Z","level":"info","event":"[Data Engineer]Scraped 259 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:49.236020Z","level":"info","event":"[Data Engineer]This is page starting at 975","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:49.625131Z","level":"info","event":"[ML Engineer]Scraped 259 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:49.625468Z","level":"info","event":"[ML Engineer]This is page starting at 0","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:50.129447Z","level":"info","event":"[ML Engineer]Scraped 259 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:50.138370Z","level":"info","event":"[ML Engineer]This is page starting at 25","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:50.674046Z","level":"info","event":"[ML Engineer]Scraped 259 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:50.674659Z","level":"info","event":"[ML Engineer]This is page starting at 50","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:51.053627Z","level":"info","event":"[ML Engineer]Scraped 259 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:51.054553Z","level":"info","event":"[ML Engineer]This is page starting at 75","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:51.444049Z","level":"info","event":"[ML Engineer]Scraped 259 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:51.444731Z","level":"info","event":"[ML Engineer]This is page starting at 100","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:51.851002Z","level":"info","event":"[ML Engineer]Scraped 259 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:51.851408Z","level":"info","event":"[ML Engineer]This is page starting at 125","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:52.199072Z","level":"info","event":"[ML Engineer]Scraped 259 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:52.199623Z","level":"info","event":"[ML Engineer]This is page starting at 150","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:52.608328Z","level":"info","event":"[ML Engineer]Scraped 259 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:52.608763Z","level":"info","event":"[ML Engineer]This is page starting at 175","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:52.934343Z","level":"info","event":"[ML Engineer]Scraped 259 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:52.934761Z","level":"info","event":"[ML Engineer]This is page starting at 200","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:57.975535Z","level":"info","event":"[ML Engineer]Scraped 269 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:06:57.976567Z","level":"info","event":"[ML Engineer]This is page starting at 225","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:03.208669Z","level":"info","event":"[ML Engineer]Scraped 279 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:03.209250Z","level":"info","event":"[ML Engineer]This is page starting at 250","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:03.504299Z","level":"info","event":"[ML Engineer]Scraped 279 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:03.504566Z","level":"info","event":"[ML Engineer]This is page starting at 275","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:03.913318Z","level":"info","event":"[ML Engineer]Scraped 279 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:03.914738Z","level":"info","event":"[ML Engineer]This is page starting at 300","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:04.255863Z","level":"info","event":"[ML Engineer]Scraped 279 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:04.256900Z","level":"info","event":"[ML Engineer]This is page starting at 325","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:04.738150Z","level":"info","event":"[ML Engineer]Scraped 279 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:04.738526Z","level":"info","event":"[ML Engineer]This is page starting at 350","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:05.065259Z","level":"info","event":"[ML Engineer]Scraped 279 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:05.066418Z","level":"info","event":"[ML Engineer]This is page starting at 375","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:05.881076Z","level":"info","event":"[ML Engineer]Scraped 279 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:05.891929Z","level":"info","event":"[ML Engineer]This is page starting at 400","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:11.490417Z","level":"info","event":"[ML Engineer]Scraped 289 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:11.492981Z","level":"info","event":"[ML Engineer]This is page starting at 425","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:11.893846Z","level":"info","event":"[ML Engineer]Scraped 289 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:11.894769Z","level":"info","event":"[ML Engineer]This is page starting at 450","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:17.561624Z","level":"info","event":"[ML Engineer]Scraped 299 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:17.562759Z","level":"info","event":"[ML Engineer]This is page starting at 475","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:17.872910Z","level":"info","event":"[ML Engineer]Scraped 299 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:17.873169Z","level":"info","event":"[ML Engineer]This is page starting at 500","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:23.078648Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:23.079326Z","level":"info","event":"[ML Engineer]This is page starting at 525","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:23.634254Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:23.634507Z","level":"info","event":"[ML Engineer]This is page starting at 550","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:23.998939Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:23.999389Z","level":"info","event":"[ML Engineer]This is page starting at 575","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:24.362317Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:24.363184Z","level":"info","event":"[ML Engineer]This is page starting at 600","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:24.918091Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:24.918760Z","level":"info","event":"[ML Engineer]This is page starting at 625","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:25.223420Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:25.223608Z","level":"info","event":"[ML Engineer]This is page starting at 650","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:25.561974Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:25.562209Z","level":"info","event":"[ML Engineer]This is page starting at 675","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:25.931132Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:25.931434Z","level":"info","event":"[ML Engineer]This is page starting at 700","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:26.317306Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:26.317785Z","level":"info","event":"[ML Engineer]This is page starting at 725","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:26.698627Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:26.698828Z","level":"info","event":"[ML Engineer]This is page starting at 750","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:27.072306Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:27.072703Z","level":"info","event":"[ML Engineer]This is page starting at 775","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:27.505413Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:27.505840Z","level":"info","event":"[ML Engineer]This is page starting at 800","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:27.806789Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:27.807172Z","level":"info","event":"[ML Engineer]This is page starting at 825","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:28.121639Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:28.122027Z","level":"info","event":"[ML Engineer]This is page starting at 850","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:28.554051Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:28.554903Z","level":"info","event":"[ML Engineer]This is page starting at 875","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:28.916967Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:28.918560Z","level":"info","event":"[ML Engineer]This is page starting at 900","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:29.358937Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:29.359458Z","level":"info","event":"[ML Engineer]This is page starting at 925","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:29.833157Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:29.833445Z","level":"info","event":"[ML Engineer]This is page starting at 950","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:30.315595Z","level":"info","event":"[ML Engineer]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:30.317230Z","level":"info","event":"[ML Engineer]This is page starting at 975","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:30.709919Z","level":"info","event":"[Data Scientist]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:30.710917Z","level":"info","event":"[Data Scientist]This is page starting at 0","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:31.060039Z","level":"info","event":"[Data Scientist]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:31.060354Z","level":"info","event":"[Data Scientist]This is page starting at 25","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:31.445661Z","level":"info","event":"[Data Scientist]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:31.446394Z","level":"info","event":"[Data Scientist]This is page starting at 50","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:31.770252Z","level":"info","event":"[Data Scientist]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:31.771091Z","level":"info","event":"[Data Scientist]This is page starting at 75","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:32.305240Z","level":"info","event":"[Data Scientist]Scraped 309 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:32.305762Z","level":"info","event":"[Data Scientist]This is page starting at 100","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:37.822330Z","level":"info","event":"[Data Scientist]Scraped 319 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:37.824307Z","level":"info","event":"[Data Scientist]This is page starting at 125","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:38.208478Z","level":"info","event":"[Data Scientist]Scraped 319 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:38.208943Z","level":"info","event":"[Data Scientist]This is page starting at 150","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:43.233972Z","level":"info","event":"[Data Scientist]Scraped 329 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:43.235935Z","level":"info","event":"[Data Scientist]This is page starting at 175","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:43.532806Z","level":"info","event":"[Data Scientist]Scraped 329 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:43.533094Z","level":"info","event":"[Data Scientist]This is page starting at 200","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:49.091334Z","level":"info","event":"[Data Scientist]Scraped 339 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:49.094655Z","level":"info","event":"[Data Scientist]This is page starting at 225","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:55.335106Z","level":"info","event":"[Data Scientist]Scraped 349 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:55.335999Z","level":"info","event":"[Data Scientist]This is page starting at 250","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:55.706415Z","level":"info","event":"[Data Scientist]Scraped 349 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:07:55.707165Z","level":"info","event":"[Data Scientist]This is page starting at 275","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:01.588898Z","level":"info","event":"[Data Scientist]Scraped 359 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:01.593203Z","level":"info","event":"[Data Scientist]This is page starting at 300","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:01.982598Z","level":"info","event":"[Data Scientist]Scraped 359 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:01.984228Z","level":"info","event":"[Data Scientist]This is page starting at 325","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:02.498199Z","level":"info","event":"[Data Scientist]Scraped 359 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:02.498472Z","level":"info","event":"[Data Scientist]This is page starting at 350","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:08.477879Z","level":"info","event":"[Data Scientist]Scraped 369 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:08.480661Z","level":"info","event":"[Data Scientist]This is page starting at 375","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:08.929383Z","level":"info","event":"[Data Scientist]Scraped 369 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:08.930070Z","level":"info","event":"[Data Scientist]This is page starting at 400","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:14.185397Z","level":"info","event":"[Data Scientist]Scraped 379 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:14.185704Z","level":"info","event":"[Data Scientist]This is page starting at 425","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:19.180815Z","level":"info","event":"[Data Scientist]Scraped 389 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:19.183318Z","level":"info","event":"[Data Scientist]This is page starting at 450","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:19.471156Z","level":"info","event":"[Data Scientist]Scraped 389 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:19.471694Z","level":"info","event":"[Data Scientist]This is page starting at 475","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:19.809089Z","level":"info","event":"[Data Scientist]Scraped 389 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:19.809466Z","level":"info","event":"[Data Scientist]This is page starting at 500","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:20.200117Z","level":"info","event":"[Data Scientist]Scraped 389 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:20.200430Z","level":"info","event":"[Data Scientist]This is page starting at 525","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:20.616614Z","level":"info","event":"[Data Scientist]Scraped 389 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:20.617065Z","level":"info","event":"[Data Scientist]This is page starting at 550","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:21.024235Z","level":"info","event":"[Data Scientist]Scraped 389 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:21.024643Z","level":"info","event":"[Data Scientist]This is page starting at 575","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:21.507202Z","level":"info","event":"[Data Scientist]Scraped 389 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:21.507676Z","level":"info","event":"[Data Scientist]This is page starting at 600","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:21.829786Z","level":"info","event":"[Data Scientist]Scraped 389 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:21.830170Z","level":"info","event":"[Data Scientist]This is page starting at 625","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:22.183255Z","level":"info","event":"[Data Scientist]Scraped 389 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:22.184183Z","level":"info","event":"[Data Scientist]This is page starting at 650","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:22.606177Z","level":"info","event":"[Data Scientist]Scraped 389 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:22.606844Z","level":"info","event":"[Data Scientist]This is page starting at 675","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:22.982443Z","level":"info","event":"[Data Scientist]Scraped 389 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:22.983161Z","level":"info","event":"[Data Scientist]This is page starting at 700","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:23.364943Z","level":"info","event":"[Data Scientist]Scraped 389 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:23.365304Z","level":"info","event":"[Data Scientist]This is page starting at 725","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:28.176049Z","level":"info","event":"[Data Scientist]Scraped 399 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:28.176486Z","level":"info","event":"[Data Scientist]This is page starting at 750","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:28.566481Z","level":"info","event":"[Data Scientist]Scraped 399 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:28.566790Z","level":"info","event":"[Data Scientist]This is page starting at 775","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:28.925744Z","level":"info","event":"[Data Scientist]Scraped 399 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:28.925929Z","level":"info","event":"[Data Scientist]This is page starting at 800","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:29.247513Z","level":"info","event":"[Data Scientist]Scraped 399 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:29.247676Z","level":"info","event":"[Data Scientist]This is page starting at 825","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:29.636677Z","level":"info","event":"[Data Scientist]Scraped 399 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:29.636849Z","level":"info","event":"[Data Scientist]This is page starting at 850","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:29.930191Z","level":"info","event":"[Data Scientist]Scraped 399 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:29.930398Z","level":"info","event":"[Data Scientist]This is page starting at 875","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:30.230064Z","level":"info","event":"[Data Scientist]Scraped 399 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:30.230449Z","level":"info","event":"[Data Scientist]This is page starting at 900","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:30.634123Z","level":"info","event":"[Data Scientist]Scraped 399 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:30.639062Z","level":"info","event":"[Data Scientist]This is page starting at 925","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:31.006826Z","level":"info","event":"[Data Scientist]Scraped 399 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:31.008927Z","level":"info","event":"[Data Scientist]This is page starting at 950","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:35.731710Z","level":"info","event":"[Data Scientist]Scraped 409 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:35.732507Z","level":"info","event":"[Data Scientist]This is page starting at 975","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:40.764109Z","level":"info","event":"[Data Analyst]Scraped 419 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:40.764500Z","level":"info","event":"[Data Analyst]This is page starting at 0","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:41.037938Z","level":"info","event":"[Data Analyst]Scraped 419 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:41.038717Z","level":"info","event":"[Data Analyst]This is page starting at 25","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:41.430223Z","level":"info","event":"[Data Analyst]Scraped 419 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:41.430714Z","level":"info","event":"[Data Analyst]This is page starting at 50","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:41.728011Z","level":"info","event":"[Data Analyst]Scraped 419 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:41.728504Z","level":"info","event":"[Data Analyst]This is page starting at 75","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:42.030678Z","level":"info","event":"[Data Analyst]Scraped 419 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:42.031345Z","level":"info","event":"[Data Analyst]This is page starting at 100","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:42.325700Z","level":"info","event":"[Data Analyst]Scraped 419 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:42.325886Z","level":"info","event":"[Data Analyst]This is page starting at 125","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:42.669168Z","level":"info","event":"[Data Analyst]Scraped 419 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:42.670041Z","level":"info","event":"[Data Analyst]This is page starting at 150","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:43.063483Z","level":"info","event":"[Data Analyst]Scraped 419 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:43.064336Z","level":"info","event":"[Data Analyst]This is page starting at 175","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:43.371636Z","level":"info","event":"[Data Analyst]Scraped 419 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:43.371913Z","level":"info","event":"[Data Analyst]This is page starting at 200","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:43.826107Z","level":"info","event":"[Data Analyst]Scraped 419 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:43.829355Z","level":"info","event":"[Data Analyst]This is page starting at 225","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:44.216430Z","level":"info","event":"[Data Analyst]Scraped 419 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:44.216894Z","level":"info","event":"[Data Analyst]This is page starting at 250","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:44.582148Z","level":"info","event":"[Data Analyst]Scraped 419 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:44.583098Z","level":"info","event":"[Data Analyst]This is page starting at 275","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:44.998050Z","level":"info","event":"[Data Analyst]Scraped 419 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:44.998539Z","level":"info","event":"[Data Analyst]This is page starting at 300","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:49.612441Z","level":"info","event":"[Data Analyst]Scraped 429 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:49.613328Z","level":"info","event":"[Data Analyst]This is page starting at 325","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:49.959338Z","level":"info","event":"[Data Analyst]Scraped 429 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:49.959525Z","level":"info","event":"[Data Analyst]This is page starting at 350","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:50.245308Z","level":"info","event":"[Data Analyst]Scraped 429 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:50.247860Z","level":"info","event":"[Data Analyst]This is page starting at 375","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:50.706753Z","level":"info","event":"[Data Analyst]Scraped 429 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:50.707159Z","level":"info","event":"[Data Analyst]This is page starting at 400","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:51.329144Z","level":"info","event":"[Data Analyst]Scraped 429 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:51.333081Z","level":"info","event":"[Data Analyst]This is page starting at 425","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:51.716523Z","level":"info","event":"[Data Analyst]Scraped 429 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:51.717321Z","level":"info","event":"[Data Analyst]This is page starting at 450","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:52.010823Z","level":"info","event":"[Data Analyst]Scraped 429 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:52.011133Z","level":"info","event":"[Data Analyst]This is page starting at 475","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:52.325146Z","level":"info","event":"[Data Analyst]Scraped 429 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:52.327055Z","level":"info","event":"[Data Analyst]This is page starting at 500","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:57.159758Z","level":"info","event":"[Data Analyst]Scraped 439 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:57.179291Z","level":"info","event":"[Data Analyst]This is page starting at 525","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:57.559350Z","level":"info","event":"[Data Analyst]Scraped 439 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:57.562475Z","level":"info","event":"[Data Analyst]This is page starting at 550","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:58.071770Z","level":"info","event":"[Data Analyst]Scraped 439 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:58.072015Z","level":"info","event":"[Data Analyst]This is page starting at 575","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:58.508024Z","level":"info","event":"[Data Analyst]Scraped 439 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:58.508420Z","level":"info","event":"[Data Analyst]This is page starting at 600","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:58.831850Z","level":"info","event":"[Data Analyst]Scraped 439 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:58.832317Z","level":"info","event":"[Data Analyst]This is page starting at 625","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:59.132833Z","level":"info","event":"[Data Analyst]Scraped 439 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:59.133092Z","level":"info","event":"[Data Analyst]This is page starting at 650","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:59.534542Z","level":"info","event":"[Data Analyst]Scraped 439 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:59.534804Z","level":"info","event":"[Data Analyst]This is page starting at 675","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:59.854749Z","level":"info","event":"[Data Analyst]Scraped 439 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:08:59.855444Z","level":"info","event":"[Data Analyst]This is page starting at 700","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:00.169478Z","level":"info","event":"[Data Analyst]Scraped 439 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:00.169722Z","level":"info","event":"[Data Analyst]This is page starting at 725","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:05.883197Z","level":"info","event":"[Data Analyst]Scraped 449 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:05.884445Z","level":"info","event":"[Data Analyst]This is page starting at 750","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:06.205998Z","level":"info","event":"[Data Analyst]Scraped 449 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:06.206940Z","level":"info","event":"[Data Analyst]This is page starting at 775","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:06.594962Z","level":"info","event":"[Data Analyst]Scraped 449 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:06.595528Z","level":"info","event":"[Data Analyst]This is page starting at 800","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:06.967602Z","level":"info","event":"[Data Analyst]Scraped 449 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:06.968752Z","level":"info","event":"[Data Analyst]This is page starting at 825","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:07.531532Z","level":"info","event":"[Data Analyst]Scraped 449 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:07.532126Z","level":"info","event":"[Data Analyst]This is page starting at 850","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:07.983210Z","level":"info","event":"[Data Analyst]Scraped 449 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:07.983981Z","level":"info","event":"[Data Analyst]This is page starting at 875","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:08.416233Z","level":"info","event":"[Data Analyst]Scraped 449 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:08.416579Z","level":"info","event":"[Data Analyst]This is page starting at 900","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:08.765238Z","level":"info","event":"[Data Analyst]Scraped 449 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:08.765518Z","level":"info","event":"[Data Analyst]This is page starting at 925","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:09.081264Z","level":"info","event":"[Data Analyst]Scraped 449 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:09.081808Z","level":"info","event":"[Data Analyst]This is page starting at 950","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:09.571224Z","level":"info","event":"[Data Analyst]Scraped 449 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:09.571550Z","level":"info","event":"[Data Analyst]This is page starting at 975","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:09.918855Z","level":"info","event":"[AI Engineer]Scraped 449 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:09.919208Z","level":"info","event":"[AI Engineer]This is page starting at 0","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:10.297183Z","level":"info","event":"[AI Engineer]Scraped 449 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:10.297374Z","level":"info","event":"[AI Engineer]This is page starting at 25","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:10.698273Z","level":"info","event":"[AI Engineer]Scraped 449 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:10.698533Z","level":"info","event":"[AI Engineer]This is page starting at 50","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:11.218549Z","level":"info","event":"[AI Engineer]Scraped 449 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:11.218854Z","level":"info","event":"[AI Engineer]This is page starting at 75","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:11.685005Z","level":"info","event":"[AI Engineer]Scraped 449 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:11.688250Z","level":"info","event":"[AI Engineer]This is page starting at 100","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:17.406252Z","level":"info","event":"[AI Engineer]Scraped 459 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:17.406576Z","level":"info","event":"[AI Engineer]This is page starting at 125","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:17.775267Z","level":"info","event":"[AI Engineer]Scraped 459 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:17.776021Z","level":"info","event":"[AI Engineer]This is page starting at 150","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:18.127039Z","level":"info","event":"[AI Engineer]Scraped 459 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:18.127899Z","level":"info","event":"[AI Engineer]This is page starting at 175","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:18.493295Z","level":"info","event":"[AI Engineer]Scraped 459 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:18.494243Z","level":"info","event":"[AI Engineer]This is page starting at 200","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:18.886678Z","level":"info","event":"[AI Engineer]Scraped 459 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:18.887628Z","level":"info","event":"[AI Engineer]This is page starting at 225","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:19.230013Z","level":"info","event":"[AI Engineer]Scraped 459 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:19.230490Z","level":"info","event":"[AI Engineer]This is page starting at 250","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:24.827234Z","level":"info","event":"[AI Engineer]Scraped 469 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:24.829447Z","level":"info","event":"[AI Engineer]This is page starting at 275","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:25.257868Z","level":"info","event":"[AI Engineer]Scraped 469 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:25.258741Z","level":"info","event":"[AI Engineer]This is page starting at 300","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:25.578419Z","level":"info","event":"[AI Engineer]Scraped 469 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:25.579076Z","level":"info","event":"[AI Engineer]This is page starting at 325","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:25.994580Z","level":"info","event":"[AI Engineer]Scraped 469 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:25.995002Z","level":"info","event":"[AI Engineer]This is page starting at 350","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:26.578636Z","level":"info","event":"[AI Engineer]Scraped 469 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:26.579440Z","level":"info","event":"[AI Engineer]This is page starting at 375","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:32.324648Z","level":"info","event":"[AI Engineer]Scraped 479 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:32.325823Z","level":"info","event":"[AI Engineer]This is page starting at 400","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:32.712215Z","level":"info","event":"[AI Engineer]Scraped 479 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:32.712422Z","level":"info","event":"[AI Engineer]This is page starting at 425","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:39.305392Z","level":"info","event":"[AI Engineer]Scraped 489 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:39.307203Z","level":"info","event":"[AI Engineer]This is page starting at 450","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:39.693168Z","level":"info","event":"[AI Engineer]Scraped 489 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:39.693560Z","level":"info","event":"[AI Engineer]This is page starting at 475","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:45.844020Z","level":"info","event":"[AI Engineer]Scraped 499 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:45.848856Z","level":"info","event":"[AI Engineer]This is page starting at 500","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:46.303982Z","level":"info","event":"[AI Engineer]Scraped 499 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:46.304301Z","level":"info","event":"[AI Engineer]This is page starting at 525","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:52.862937Z","level":"info","event":"[AI Engineer]Scraped 509 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:52.865412Z","level":"info","event":"[AI Engineer]This is page starting at 550","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:59.619004Z","level":"info","event":"[AI Engineer]Scraped 519 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:09:59.621814Z","level":"info","event":"[AI Engineer]This is page starting at 575","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:09.023546Z","level":"info","event":"[AI Engineer]Scraped 529 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:09.025276Z","level":"info","event":"[AI Engineer]This is page starting at 600","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:15.169795Z","level":"info","event":"[AI Engineer]Scraped 539 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:15.170227Z","level":"info","event":"[AI Engineer]This is page starting at 625","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:20.536022Z","level":"info","event":"[AI Engineer]Scraped 549 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:20.536786Z","level":"info","event":"[AI Engineer]This is page starting at 650","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:26.089719Z","level":"info","event":"[AI Engineer]Scraped 559 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:26.090101Z","level":"info","event":"[AI Engineer]This is page starting at 675","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:31.532209Z","level":"info","event":"[AI Engineer]Scraped 569 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:31.532744Z","level":"info","event":"[AI Engineer]This is page starting at 700","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:36.612906Z","level":"info","event":"[AI Engineer]Scraped 579 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:36.613651Z","level":"info","event":"[AI Engineer]This is page starting at 725","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:42.037986Z","level":"info","event":"[AI Engineer]Scraped 589 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:42.039815Z","level":"info","event":"[AI Engineer]This is page starting at 750","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:42.364803Z","level":"info","event":"[AI Engineer]Scraped 589 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:42.365207Z","level":"info","event":"[AI Engineer]This is page starting at 775","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:47.264819Z","level":"info","event":"[AI Engineer]Scraped 599 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:47.265091Z","level":"info","event":"[AI Engineer]This is page starting at 800","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:47.603934Z","level":"info","event":"[AI Engineer]Scraped 599 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:47.604331Z","level":"info","event":"[AI Engineer]This is page starting at 825","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:47.958838Z","level":"info","event":"[AI Engineer]Scraped 599 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:47.959035Z","level":"info","event":"[AI Engineer]This is page starting at 850","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:48.319258Z","level":"info","event":"[AI Engineer]Scraped 599 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:48.319914Z","level":"info","event":"[AI Engineer]This is page starting at 875","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:48.702346Z","level":"info","event":"[AI Engineer]Scraped 599 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:48.703155Z","level":"info","event":"[AI Engineer]This is page starting at 900","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:49.098146Z","level":"info","event":"[AI Engineer]Scraped 599 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:49.101718Z","level":"info","event":"[AI Engineer]This is page starting at 925","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:49.482084Z","level":"info","event":"[AI Engineer]Scraped 599 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:49.482336Z","level":"info","event":"[AI Engineer]This is page starting at 950","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:49.883329Z","level":"info","event":"[AI Engineer]Scraped 599 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:49.884142Z","level":"info","event":"[AI Engineer]This is page starting at 975","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:50.251144Z","level":"info","event":"[Business Intelligence Analyst]Scraped 599 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:50.252034Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 0","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:50.699164Z","level":"info","event":"[Business Intelligence Analyst]Scraped 599 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:50.700066Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 25","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:51.005700Z","level":"info","event":"[Business Intelligence Analyst]Scraped 599 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:51.006980Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 50","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:51.344156Z","level":"info","event":"[Business Intelligence Analyst]Scraped 599 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:51.344690Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 75","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:56.490432Z","level":"info","event":"[Business Intelligence Analyst]Scraped 609 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:56.491431Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 100","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:56.860838Z","level":"info","event":"[Business Intelligence Analyst]Scraped 609 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:10:56.861236Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 125","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:01.729617Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:01.730396Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 150","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:02.154980Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:02.155783Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 175","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:02.527924Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:02.528321Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 200","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:02.809555Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:02.813917Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 225","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:03.135669Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:03.136294Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 250","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:03.511467Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:03.511671Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 275","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:03.805607Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:03.806332Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 300","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:04.303346Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:04.305944Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 325","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:04.668153Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:04.668338Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 350","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:04.959450Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:04.960529Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 375","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:05.325306Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:05.327094Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 400","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:05.699487Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:05.699839Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 425","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:06.131878Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:06.132203Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 450","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:06.475987Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:06.476472Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 475","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:06.865602Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:06.865834Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 500","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:07.220631Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:07.221097Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 525","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:07.582185Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:07.582413Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 550","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:07.949810Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:07.950910Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 575","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:08.315280Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:08.317422Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 600","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:08.666649Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:08.668213Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 625","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:09.152958Z","level":"info","event":"[Business Intelligence Analyst]Scraped 619 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:09.155014Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 650","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:14.462077Z","level":"info","event":"[Business Intelligence Analyst]Scraped 629 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:14.463731Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 675","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:19.777494Z","level":"info","event":"[Business Intelligence Analyst]Scraped 639 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:19.778624Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 700","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:20.163220Z","level":"info","event":"[Business Intelligence Analyst]Scraped 639 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:20.163589Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 725","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:25.646359Z","level":"info","event":"[Business Intelligence Analyst]Scraped 649 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:25.646880Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 750","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:30.834869Z","level":"info","event":"[Business Intelligence Analyst]Scraped 659 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:30.835297Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 775","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:31.140325Z","level":"info","event":"[Business Intelligence Analyst]Scraped 659 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:31.142617Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 800","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:31.532018Z","level":"info","event":"[Business Intelligence Analyst]Scraped 659 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:31.532676Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 825","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:31.929006Z","level":"info","event":"[Business Intelligence Analyst]Scraped 659 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:31.929492Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 850","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:32.632160Z","level":"info","event":"[Business Intelligence Analyst]Scraped 659 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:32.633188Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 875","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:38.322909Z","level":"info","event":"[Business Intelligence Analyst]Scraped 669 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:38.323722Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 900","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:38.638283Z","level":"info","event":"[Business Intelligence Analyst]Scraped 669 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:38.638631Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 925","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:39.056769Z","level":"info","event":"[Business Intelligence Analyst]Scraped 669 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:39.065737Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 950","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:39.490802Z","level":"info","event":"[Business Intelligence Analyst]Scraped 669 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:39.505955Z","level":"info","event":"[Business Intelligence Analyst]This is page starting at 975","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:39.993784Z","level":"info","event":"[Data specialist]Scraped 669 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:39.994729Z","level":"info","event":"[Data specialist]This is page starting at 0","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:46.505942Z","level":"info","event":"[Data specialist]Scraped 679 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:46.507548Z","level":"info","event":"[Data specialist]This is page starting at 25","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:46.869856Z","level":"info","event":"[Data specialist]Scraped 679 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:46.870638Z","level":"info","event":"[Data specialist]This is page starting at 50","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:51.756180Z","level":"info","event":"[Data specialist]Scraped 689 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:51.794735Z","level":"info","event":"[Data specialist]This is page starting at 75","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:52.089797Z","level":"info","event":"[Data specialist]Scraped 689 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:52.092884Z","level":"info","event":"[Data specialist]This is page starting at 100","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:58.431026Z","level":"info","event":"[Data specialist]Scraped 699 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:11:58.432656Z","level":"info","event":"[Data specialist]This is page starting at 125","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:12:03.878322Z","level":"info","event":"[Data specialist]Scraped 709 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:12:03.880057Z","level":"info","event":"[Data specialist]This is page starting at 150","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:12:09.623842Z","level":"info","event":"[Data specialist]Scraped 719 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:12:09.635255Z","level":"info","event":"[Data specialist]This is page starting at 175","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:12:16.282185Z","level":"info","event":"[Data specialist]Scraped 729 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:12:16.284354Z","level":"info","event":"[Data specialist]This is page starting at 200","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:12:22.970076Z","level":"info","event":"[Data specialist]Scraped 739 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:12:22.973778Z","level":"info","event":"[Data specialist]This is page starting at 225","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:12:30.098617Z","level":"info","event":"[Data specialist]Scraped 749 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:12:30.100891Z","level":"info","event":"[Data specialist]This is page starting at 250","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:12:35.815001Z","level":"info","event":"[Data specialist]Scraped 759 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:12:35.819306Z","level":"info","event":"[Data specialist]This is page starting at 275","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:12:42.617599Z","level":"info","event":"[Data specialist]Scraped 769 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:12:42.619788Z","level":"info","event":"[Data specialist]This is page starting at 300","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:12:48.399503Z","level":"info","event":"[Data specialist]Scraped 779 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:12:48.400756Z","level":"info","event":"[Data specialist]This is page starting at 325","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:12:55.895388Z","level":"info","event":"[Data specialist]Scraped 789 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:12:55.900295Z","level":"info","event":"[Data specialist]This is page starting at 350","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:13:02.538707Z","level":"info","event":"[Data specialist]Scraped 799 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:13:02.540251Z","level":"info","event":"[Data specialist]This is page starting at 375","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:13:08.323355Z","level":"info","event":"[Data specialist]Scraped 809 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:13:08.324236Z","level":"info","event":"[Data specialist]This is page starting at 400","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:13:14.634099Z","level":"info","event":"[Data specialist]Scraped 819 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:13:14.634570Z","level":"info","event":"[Data specialist]This is page starting at 425","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:13:21.424164Z","level":"info","event":"[Data specialist]Scraped 829 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:13:21.426117Z","level":"info","event":"[Data specialist]This is page starting at 450","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:13:27.176329Z","level":"info","event":"[Data specialist]Scraped 839 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:13:27.177299Z","level":"info","event":"[Data specialist]This is page starting at 475","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:13:34.164128Z","level":"info","event":"[Data specialist]Scraped 849 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:13:34.166833Z","level":"info","event":"[Data specialist]This is page starting at 500","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:13:40.291542Z","level":"info","event":"[Data specialist]Scraped 859 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:13:40.292464Z","level":"info","event":"[Data specialist]This is page starting at 525","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:13:47.723979Z","level":"info","event":"[Data specialist]Scraped 869 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:13:47.725891Z","level":"info","event":"[Data specialist]This is page starting at 550","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:13:54.781235Z","level":"info","event":"[Data specialist]Scraped 879 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:13:54.782078Z","level":"info","event":"[Data specialist]This is page starting at 575","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:00.918840Z","level":"info","event":"[Data specialist]Scraped 889 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:00.920675Z","level":"info","event":"[Data specialist]This is page starting at 600","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:07.457194Z","level":"info","event":"[Data specialist]Scraped 899 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:07.460258Z","level":"info","event":"[Data specialist]This is page starting at 625","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:13.940739Z","level":"info","event":"[Data specialist]Scraped 909 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:13.941927Z","level":"info","event":"[Data specialist]This is page starting at 650","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:19.628674Z","level":"info","event":"[Data specialist]Scraped 919 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:19.629303Z","level":"info","event":"[Data specialist]This is page starting at 675","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:26.221604Z","level":"info","event":"[Data specialist]Scraped 929 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:26.223125Z","level":"info","event":"[Data specialist]This is page starting at 700","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:32.208540Z","level":"info","event":"[Data specialist]Scraped 939 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:32.210274Z","level":"info","event":"[Data specialist]This is page starting at 725","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:38.057102Z","level":"info","event":"[Data specialist]Scraped 949 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:38.059715Z","level":"info","event":"[Data specialist]This is page starting at 750","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:46.211582Z","level":"info","event":"[Data specialist]Scraped 959 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:46.213703Z","level":"info","event":"[Data specialist]This is page starting at 775","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:52.658252Z","level":"info","event":"[Data specialist]Scraped 969 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:52.662766Z","level":"info","event":"[Data specialist]This is page starting at 800","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:58.938740Z","level":"info","event":"[Data specialist]Scraped 979 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:14:58.939898Z","level":"info","event":"[Data specialist]This is page starting at 825","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:15:05.360415Z","level":"info","event":"[Data specialist]Scraped 989 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:15:05.362950Z","level":"info","event":"[Data specialist]This is page starting at 850","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:15:11.689652Z","level":"info","event":"[Data specialist]Scraped 999 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:15:11.691957Z","level":"info","event":"[Data specialist]This is page starting at 875","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:15:18.549449Z","level":"info","event":"[Data specialist]Scraped 1009 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:15:18.563149Z","level":"info","event":"[Data specialist]This is page starting at 900","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:15:25.148351Z","level":"info","event":"[Data specialist]Scraped 1019 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:15:25.150247Z","level":"info","event":"[Data specialist]This is page starting at 925","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:15:31.883536Z","level":"info","event":"[Data specialist]Scraped 1029 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:15:31.884764Z","level":"info","event":"[Data specialist]This is page starting at 950","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:15:38.351401Z","level":"info","event":"[Data specialist]Scraped 1039 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:15:38.352549Z","level":"info","event":"[Data specialist]This is page starting at 975","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:15:38.377866Z","level":"info","event":"Number of job posts with null title: 314","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:18:13.963974Z","level":"info","event":"After final check, number of job posts with null title: 130","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:19:23.196788Z","level":"info","event":"After final check, number of job posts with null title: 15","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:19:31.234214Z","level":"info","event":"After final check, number of job posts with null title: 0","logger":"task.stdout"}
+{"timestamp":"2026-03-20T15:19:31.235930Z","level":"error","event":"Task failed with exception","logger":"task","filename":"task_runner.py","lineno":1186,"error_detail":[{"exc_type":"NameError","exc_value":"name 'timezone' is not defined","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1112,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1528,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":417,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/decorator.py","lineno":252,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":417,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":228,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":251,"name":"execute_callable"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":82,"name":"run"},{"filename":"/opt/airflow/dags/schedule.py","lineno":29,"name":"scrape_linkedin"},{"filename":"/opt/airflow/project/scraper/linkedin_scrape.py","lineno":211,"name":"scrape"}],"is_group":false,"exceptions":[]}]}
