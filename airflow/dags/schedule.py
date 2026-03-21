@@ -59,7 +59,7 @@ def job_market_data_pipeline():
         print(f"File {latest_path} has content. Proceeding to upload.")
         upload([latest_path])
         ti.xcom_push(key="uploaded_file", value=latest_path.as_posix())
-        time.sleep(100)
+        time.sleep(120)
 
     
 
@@ -91,21 +91,7 @@ def job_market_data_pipeline():
         status = ti.xcom_pull(key="data_arrival_checked_file", task_ids="check_data_arrival")
         if status == 'success':
             print("Data arrival check completed successfully.")
-            dbt_cmd = os.getenv("DBT_CMD", "dbt")
-            subprocess.run(
-                [
-                    sys.executable,
-                    "-m",
-                    "dbt",
-                    "run",
-                    "--select",
-                    "bronze",
-                    "--profiles-dir",
-                    "/opt/airflow/project/dbt_job_market",
-                ],
-                cwd="/opt/airflow/project/dbt_job_market",
-                check=True,
-            )
+            subprocess.run(["dbt", "build"], check=True)
         else:
             raise ValueError("Data arrival check did not complete successfully.")
 

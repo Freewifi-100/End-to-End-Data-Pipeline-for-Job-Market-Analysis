@@ -178,16 +178,16 @@ def scrape():
     title = [
         "Data Engineer",
         "ML Engineer",
-        # "Data Scientist",
-        # "Data Analyst",
-        # "AI Engineer",
-        # "Business Intelligence Analyst",
-        # "Data specialist",
+        "Data Scientist",
+        "Data Analyst",
+        "AI Engineer",
+        "Business Intelligence Analyst",
+        "Data specialist",
     ]
     location = "Bagkok, Thailand"
     job_list_all = []
     for t in title:
-        for i in range(0, 100, 25):
+        for i in range(0, 1000, 25):
             page_jobs = request_preview_job_posting(t, location, i)
             if page_jobs is None:
                 continue

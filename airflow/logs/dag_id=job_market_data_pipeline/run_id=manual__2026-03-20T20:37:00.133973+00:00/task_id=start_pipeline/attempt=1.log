@@ -1,0 +1,32 @@
+{"timestamp":"2026-03-20T20:39:51.499655Z","level":"info","event":"Stats instance was created in PID 6 but accessed in PID 222. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-03-20T20:39:51.510762Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-20T20:39:51.511425Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/schedule.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-20T20:39:51.540243Z","level":"warning","event":"The `airflow.decorators.dag` attribute is deprecated. Please use `'airflow.sdk.dag'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/schedule.py","lineno":6,"logger":"py.warnings"}
+{"timestamp":"2026-03-20T20:39:51.540341Z","level":"warning","event":"The `airflow.decorators.task` attribute is deprecated. Please use `'airflow.sdk.task'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/schedule.py","lineno":6,"logger":"py.warnings"}
+{"timestamp":"2026-03-20T20:39:51.562808Z","level":"info","event":"Starting job market data pipeline...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:39:51.569127Z","level":"info","event":"Data arrival check completed successfully.","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:39:51.961258Z","level":"error","event":"/home/airflow/.local/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.6.3) or chardet (6.0.0.post1)/charset_normalizer (3.4.5) doesn't match a supported version!","logger":"task.stderr"}
+{"timestamp":"2026-03-20T20:39:51.961513Z","level":"error","event":"  warnings.warn(","logger":"task.stderr"}
+{"timestamp":"2026-03-20T20:39:52.644861Z","level":"info","event":"\u001b[0m20:39:52  Running with dbt=1.11.5","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:39:53.218814Z","level":"error","event":"WARNING:thrift.transport.sslcompat:using legacy validation callback","logger":"task.stderr"}
+{"timestamp":"2026-03-20T20:39:53.631639Z","level":"error","event":"/home/airflow/.local/lib/python3.12/site-packages/pydantic/_internal/_config.py:383: UserWarning: Valid config keys have changed in V2:","logger":"task.stderr"}
+{"timestamp":"2026-03-20T20:39:53.631880Z","level":"error","event":"* 'allow_population_by_field_name' has been renamed to 'validate_by_name'","logger":"task.stderr"}
+{"timestamp":"2026-03-20T20:39:53.631956Z","level":"error","event":"  warnings.warn(message, UserWarning)","logger":"task.stderr"}
+{"timestamp":"2026-03-20T20:39:53.768068Z","level":"info","event":"\u001b[0m20:39:53  Registered adapter: databricks=1.10.9","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:39:53.887684Z","level":"info","event":"\u001b[0m20:39:53  Unable to do partial parsing because config vars, config profile, or config target have changed","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:39:54.949696Z","level":"info","event":"\u001b[0m20:39:54  Found 12 models, 1 analysis, 1 snapshot, 1 source, 720 macros","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:39:54.950857Z","level":"info","event":"\u001b[0m20:39:54","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:39:54.951074Z","level":"info","event":"\u001b[0m20:39:54  Concurrency: 1 threads (target='dev')","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:39:54.951272Z","level":"info","event":"\u001b[0m20:39:54","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:40:07.366567Z","level":"info","event":"\u001b[0m20:40:07  1 of 1 START sql incremental model bronze.bronze_linkedin_data ................. [RUN]","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:40:07.421812Z","level":"info","event":"\u001b[0m20:40:07  [\u001b[33mWARNING\u001b[0m]: Use revamped materializations based on separating create and insert.  This allows more performant column comments, as well as new column features.","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:40:07.422532Z","level":"info","event":"You may opt into the new behavior sooner by setting `flags.use_materialization_v2` to `True` in `dbt_project.yml`.","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:40:07.424461Z","level":"info","event":"Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:40:34.037283Z","level":"info","event":"\u001b[0m20:40:34  1 of 1 OK created sql incremental model bronze.bronze_linkedin_data ............ [\u001b[32mOK\u001b[0m in 26.64s]","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:40:34.071821Z","level":"info","event":"\u001b[0m20:40:34","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:40:34.072684Z","level":"info","event":"\u001b[0m20:40:34  Finished running 1 incremental model in 0 hours 0 minutes and 39.12 seconds (39.12s).","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:40:34.136163Z","level":"info","event":"\u001b[0m20:40:34","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:40:34.136823Z","level":"info","event":"\u001b[0m20:40:34  \u001b[32mCompleted successfully\u001b[0m","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:40:34.137052Z","level":"info","event":"\u001b[0m20:40:34","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:40:34.137685Z","level":"info","event":"\u001b[0m20:40:34  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:40:36.273149Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":230}

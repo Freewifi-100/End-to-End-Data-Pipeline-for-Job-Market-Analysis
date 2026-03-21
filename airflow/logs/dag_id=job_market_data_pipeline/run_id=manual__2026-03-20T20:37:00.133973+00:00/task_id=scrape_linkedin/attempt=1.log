@@ -1,0 +1,23 @@
+{"timestamp":"2026-03-20T20:37:01.168542Z","level":"info","event":"Stats instance was created in PID 6 but accessed in PID 172. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-03-20T20:37:01.179722Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-20T20:37:01.181138Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/schedule.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-20T20:37:01.198242Z","level":"warning","event":"The `airflow.decorators.dag` attribute is deprecated. Please use `'airflow.sdk.dag'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/schedule.py","lineno":6,"logger":"py.warnings"}
+{"timestamp":"2026-03-20T20:37:01.198333Z","level":"warning","event":"The `airflow.decorators.task` attribute is deprecated. Please use `'airflow.sdk.task'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/schedule.py","lineno":6,"logger":"py.warnings"}
+{"timestamp":"2026-03-20T20:37:07.922044Z","level":"info","event":"[Data Engineer]Scraped 10 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:37:07.922439Z","level":"info","event":"[Data Engineer]This is page starting at 0","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:37:14.013498Z","level":"info","event":"[Data Engineer]Scraped 20 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:37:14.014251Z","level":"info","event":"[Data Engineer]This is page starting at 25","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:37:20.307226Z","level":"info","event":"[Data Engineer]Scraped 30 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:37:20.307789Z","level":"info","event":"[Data Engineer]This is page starting at 50","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:37:26.167481Z","level":"info","event":"[Data Engineer]Scraped 40 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:37:26.169017Z","level":"info","event":"[Data Engineer]This is page starting at 75","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:37:32.904322Z","level":"info","event":"[ML Engineer]Scraped 50 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:37:32.905637Z","level":"info","event":"[ML Engineer]This is page starting at 0","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:37:39.164851Z","level":"info","event":"[ML Engineer]Scraped 60 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:37:39.165165Z","level":"info","event":"[ML Engineer]This is page starting at 25","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:37:44.923840Z","level":"info","event":"[ML Engineer]Scraped 70 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:37:44.924226Z","level":"info","event":"[ML Engineer]This is page starting at 50","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:37:50.693334Z","level":"info","event":"[ML Engineer]Scraped 80 job posts so far...","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:37:50.694261Z","level":"info","event":"[ML Engineer]This is page starting at 75","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:37:50.703207Z","level":"info","event":"Number of job posts with null title: 0","logger":"task.stdout"}
+{"timestamp":"2026-03-20T20:37:50.731629Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":230}
