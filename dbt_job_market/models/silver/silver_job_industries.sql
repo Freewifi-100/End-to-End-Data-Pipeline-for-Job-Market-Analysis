@@ -1,5 +1,5 @@
 SELECT
-    job_id,
+    md5(TRIM(industry)) as industry_key,
     TRIM(industry) AS industry
 FROM {{ ref('bronze_linkedin_data') }}
 

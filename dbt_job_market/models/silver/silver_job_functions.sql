@@ -1,5 +1,5 @@
 SELECT
-    job_id,
+    md5(TRIM(func)) as function_key,
     TRIM(func) AS job_function
 FROM {{ ref('bronze_linkedin_data') }}
 
