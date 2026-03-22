@@ -1,6 +1,6 @@
 SELECT
-    md5(TRIM(industry)) as industry_key,
-    TRIM(industry) AS industry
+    job_id,
+    TRIM(industry) AS industry_name
 FROM {{ ref('bronze_linkedin_data') }}
 
 LATERAL VIEW EXPLODE(

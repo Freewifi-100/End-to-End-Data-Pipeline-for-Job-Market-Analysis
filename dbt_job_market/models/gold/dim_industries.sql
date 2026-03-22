@@ -1,7 +1,7 @@
 {{ config(materialized='table') }}
 
 select distinct
-    job_id,
-    industry
+    md5(TRIM(industry_name)) as industry_key,
+    industry_name
 from {{ ref('silver_job_industries') }}
-where industry is not null
+

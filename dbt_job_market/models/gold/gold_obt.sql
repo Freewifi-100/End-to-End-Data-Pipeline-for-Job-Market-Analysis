@@ -7,7 +7,7 @@
         },
         {
             "table": "dbt_job_market.silver.silver_job_industries",
-            "columns": "job_industries.industry as each_industry",
+            "columns": "job_industries.industry_name as each_industry",
             "alias": "job_industries",
             "join_condition": "silver_linkedin_data.job_id = job_industries.job_id",
         },

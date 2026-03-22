@@ -17,8 +17,8 @@ DBT_EXECUTABLE_PATH = f"{os.environ['AIRFLOW_HOME']}/opt/airflow/venv/bin/dbt"
 
 @dag(
     dag_id="job_market_data_pipeline",
-    # start_date=datetime(2026, 3, 19, tz="Asia/Bangkok"),
-    # schedule=CronTriggerTimetable("30 3 * * *", timezone="Asia/Bangkok"),
+    start_date=datetime(year=2026, month=3, day=22),
+    schedule=CronTriggerTimetable("30 8 * * *", timezone="Asia/Bangkok"),
     is_paused_upon_creation=True,
     catchup=False,
 )
@@ -94,10 +94,6 @@ def job_market_data_pipeline():
             subprocess.run(["dbt", "build"], check=True)
         else:
             raise ValueError("Data arrival check did not complete successfully.")
-
-
-
-        
 
     scrape_linkedin() >> upload_to_databricks() >> check_data_arrival() >> start_pipeline()
 

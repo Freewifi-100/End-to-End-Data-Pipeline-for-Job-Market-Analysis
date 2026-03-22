@@ -2,6 +2,7 @@
 
 
 SELECT DISTINCT
+    md5(location) as location_key,
     location,
     country,
     province,
