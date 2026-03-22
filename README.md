@@ -8,6 +8,7 @@ data extraction → storage → transformation → analytics-ready datasets
 It is designed to showcase real-world data engineering practices including orchestration, scalable processing, and modular transformations.
 
 ### 🧱 Architecture Overview
+
 ```
 Web Scraper → Raw Data → Data Lake (Databricks) → dbt Transformations → Analytics Tables
                          ↑
@@ -28,10 +29,12 @@ Environment | Docker |
 ### 📁 Project Structure
 
 ```
+
 End-to-End-Data-Pipeline-for-Job-Market-Analysis
 │
 ├── airflow/                # Airflow DAGs for orchestration
 ├── database/               # Database connection configs and utilities
+├── databricks/             # Code in databricks notebooks for controlling jobs and transformations
 ├── scraper/                # Job scraping scripts
 ├── raw/                    # Raw collected data
 ├── dbt_job_market/         # dbt models and transformations
@@ -42,6 +45,7 @@ End-to-End-Data-Pipeline-for-Job-Market-Analysis
 ```
 
 ### 🔁 Airflow DAG Overview
+
 ```
 scrape_jobs
     ↓
@@ -66,6 +70,7 @@ cd End-to-End-Data-Pipeline-for-Job-Market-Analysis
 ```bash
 docker-compose up -d
 ``` 
+
 3. **Run the pipeline**
 
 - From Airflow UI ``http://localhost:8080``
