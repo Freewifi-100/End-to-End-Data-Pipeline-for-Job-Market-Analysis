@@ -70,3 +70,7 @@ docker-compose up -d
 
 - From Airflow UI ``http://localhost:8080``
 - Trigger the `job_market_data_pipeline` DAG
+
+### Database Schema style
+
+![alt text](diagram.jpg "Database Schema style")
