@@ -33,6 +33,7 @@ Environment | Docker |
 End-to-End-Data-Pipeline-for-Job-Market-Analysis
 │
 ├── airflow/                # Airflow DAGs for orchestration
+├── analyse/                # Jupyter notebooks for data analysis and visualization 
 ├── database/               # Database connection configs and utilities
 ├── databricks/             # Code in databricks notebooks for controlling jobs and transformations
 ├── scraper/                # Job scraping scripts
