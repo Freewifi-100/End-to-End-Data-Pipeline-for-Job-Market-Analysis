@@ -80,3 +80,7 @@ docker-compose up -d
 ### Database Schema style
 
 ![alt text](diagram.jpg "Database Schema style")
+
+### 📊 Visualization
+
+[This is a link to the visualization dashboard](https://app.powerbi.com/view?r=eyJrIjoiNTVjNjFlMjMtM2EyOC00NWFhLTk0OGEtM2RhZmIxZWVmOGRjIiwidCI6IjliYzU4NWY5LWE4YjgtNDMxYy05MDEzLWVmYTdiMmI0MGNkZiIsImMiOjEwfQ%3D%3D)
