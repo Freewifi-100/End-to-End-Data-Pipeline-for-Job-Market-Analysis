@@ -1,11 +1,7 @@
-{{
-  config(
-    materialized = 'table',
-    )
-}}
+{{config(materialized = 'table',)}}
 
 SELECT DISTINCT
-  md5(cast(date(posted_timestamp) as string)) as posted_date_key,
+  md5(cast(posted_timestamp as string)) as posted_date_key,
   posted_timestamp,
   year(posted_timestamp)  as posted_year,
   month(posted_timestamp) as posted_month,

@@ -33,4 +33,3 @@ from
             on {{ config['join_condition'] }}
         {% endif %}
     {% endfor %}
-

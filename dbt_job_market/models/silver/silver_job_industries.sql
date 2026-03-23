@@ -1,4 +1,5 @@
 SELECT
+distinct
     job_id,
     TRIM(industry) AS industry_name
 FROM {{ ref('bronze_linkedin_data') }}

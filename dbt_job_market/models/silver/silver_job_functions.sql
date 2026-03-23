@@ -1,4 +1,5 @@
 SELECT
+distinct
     job_id,
     TRIM(func) AS job_function
 FROM {{ ref('bronze_linkedin_data') }}

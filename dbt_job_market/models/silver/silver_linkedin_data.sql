@@ -1,7 +1,5 @@
-{{ config(materialized='incremental',
-    unique_key = 'id'
-    ) 
-}}
+{{ config(materialized='incremental') }}
+{% set incremental_col = 'scraped_at' %}
 
 select
     id,
@@ -21,8 +19,17 @@ select
     {{ location_fields('location') }},
     seniority_level,
     employment_type,
-    job_function,
+    case
+        when job_function is null then 'unknown'
+        else job_function
+    end as job_function,
     industries,
     job_description,
     scraped_at
 from {{ ref('bronze_linkedin_data') }}
+
+{# {% if incremental_flag == 1 %} #}
+{% if is_incremental() %}
+    {# WHERE {{ incremental_col }} > (select coalesce(max({{ incremental_col }}), '1900-01-01') from {{ ref('bronze_bookings') }}) #}
+    WHERE {{ incremental_col }} > (select coalesce(max({{ incremental_col }}), '1900-01-01') from {{ this }})
+{% endif %} 
