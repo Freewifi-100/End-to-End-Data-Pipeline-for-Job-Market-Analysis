@@ -10,3 +10,6 @@ wheels/
 .venv
 .env
 .vscode
+airflow/logs
+logs
+.user.yml

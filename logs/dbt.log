@@ -14,3 +14,19 @@ Runtime Error
 [0m20:17:02.776272 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109af0c30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109b10dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109b54050>]}
 [0m20:17:02.776814 [debug] [MainThread]: Flushing usage events
 [0m20:17:03.953172 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:27:52.269499 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b6c440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10608bc50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10608bed0>]}
+
+
+============================== 17:27:52.273051 | 46242c87-fe64-4742-9217-b16fb6b55d39 ==============================
+[0m17:27:52.273051 [info ] [MainThread]: Running with dbt=1.11.5
+[0m17:27:52.273361 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'introspect': 'True', 'empty': 'None', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'static_parser': 'True', 'printer_width': '80', 'log_cache_events': 'False', 'profiles_dir': '/Users/wangaim/learn-coding/project/data-engineer/job-market-analyzer', 'debug': 'False', 'target_path': 'None', 'indirect_selection': 'eager', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'log_format': 'default', 'quiet': 'False', 'invocation_command': 'dbt test'}
+[0m17:27:52.273666 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/wangaim/learn-coding/project/data-engineer/job-market-analyzer/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:27:52.275442 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": false, "command_wall_clock_time": 0.044478044, "process_in_blocks": "0", "process_kernel_time": 0.143629, "process_mem_max_rss": "114081792", "process_out_blocks": "0", "process_user_time": 0.594986}
+[0m17:27:52.275678 [debug] [MainThread]: Command `dbt test` failed at 17:27:52.275637 after 0.04 seconds
+[0m17:27:52.275834 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060f0c30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106110dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106154050>]}
+[0m17:27:52.275978 [debug] [MainThread]: Flushing usage events
+[0m17:27:53.536676 [debug] [MainThread]: An error was encountered while trying to flush usage events

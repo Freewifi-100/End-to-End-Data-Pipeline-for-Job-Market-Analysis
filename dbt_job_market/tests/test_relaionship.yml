@@ -1,0 +1,51 @@
+version: 2
+
+models:
+  - name: fact_job_postings
+    columns:
+      - name: job_key
+        tests:
+          - relationships:
+              to: ref('dim_job')
+              field: job_key
+      - name: company_key
+        tests:
+          - relationships:
+              to: ref('dim_company')
+              field: company_key
+      - name: location_key
+        tests:
+          - relationships:
+              to: ref('dim_location')
+              field: location_key
+      - name: posted_date_key
+        tests:
+          - relationships:
+              to: ref('dim_posted_date')
+              field: posted_date_key
+
+  - name: bridge_job_industry
+    columns:
+      - name: job_id
+        tests:
+          - relationships:
+              to: ref('dim_job')
+              field: job_id
+      - name: industry_key
+        tests:
+          - relationships:
+              to: ref('dim_industry')
+              field: industry_key
+
+  - name: bridge_job_function
+    columns:
+      - name: job_id
+        tests:
+          - relationships:
+              to: ref('dim_job')
+              field: job_id
+      - name: function_key
+        tests:
+          - relationships:
+              to: ref('dim_function')
+              field: function_key
